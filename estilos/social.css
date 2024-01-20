@@ -16,7 +16,7 @@ img {
 }
 
 a {
-    margin: -5px;
+    margin-bottom: -5px;
     display: block;
     background-color: darkgreen;
     padding: 20px;
