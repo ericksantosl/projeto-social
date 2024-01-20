@@ -13,9 +13,10 @@ html, body {
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url('../imagens/fundo-preto.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 main {
@@ -28,6 +29,7 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 
     background-color: brown;
     width: 311px;
@@ -44,13 +46,15 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    text-align: right;
+    text-align: center;
+    transform: translate(0%, 50%);
+    
 }
 
 section#redes-sociais img {
     border-radius: 50%;
     width: 50px;
-    margin: 10px;
+    margin: 5px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
