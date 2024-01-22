@@ -27,5 +27,6 @@ a {
 }
 
 a:hover {
-    background-color: green;
+    background-color: rgb(2, 167, 2);
+    font-size: 1.1em;
 }
